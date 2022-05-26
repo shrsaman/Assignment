@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 100px;
+    background:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    padding:0 20px;}
+    li a::after{
+        
+    }
